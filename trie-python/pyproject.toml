@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "trie-python"
+version = "0.1.0"
+description = ""
+authors = ["Ryan Opel <ryan.a.opel@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.8.2"
+pytest = "^5.4.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
